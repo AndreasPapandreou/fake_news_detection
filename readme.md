@@ -1,14 +1,26 @@
-# README #
+# Fake news detection #
 
-### How to run
+## Intro ##
+This repository contains my bachelor thesis at the University. Two different methods are investigated to solve the problem of conveying inaccurate and untrustworthy information. In the first method, the structure and the content of the articles used are taken into account. 
+Thus, Natural Language Processing techniques were applied to the articles and an LSTM Neural Network was trained to recognize whether an article is fake or not resulting in a credibility score. In contrast, the second method considers only the author’s credibility extracted from his behavior in social media using the deep learning model trained previously. Lastly, a hybrid model combines both methods to provide better results.
 
+## Run ##
+
+While on the root directory of the cloned repository
 ```
-
 cd code && ./run.sh
-
 ```
-### Some general info
 
+## Architecture ##
+The architecture of each model and the hybrid final are shown below:
+![alt text](https://github.com/AndreasPapandreou/fake_news_detection/blob/master/res/ALGO1.png?raw=true)
+
+![alt text](https://github.com/AndreasPapandreou/fake_news_detection/blob/master/res/ALGO2.png?raw=true)
+
+![alt text](https://github.com/AndreasPapandreou/fake_news_detection/blob/master/res/FINAL_ALGO.png?raw=true)
+
+
+## Some general info ##
 
 This section describes the algorithm by following the below steps:
 
